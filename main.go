@@ -28,14 +28,6 @@ func main() {
 	log.Fatal(http.ListenAndServe("localhost:8000", nil))
 }
 
-func indexHandler(w http.ResponseWriter, r *http.Request) {
-
-}
-
-func repoHandler(w http.ResponseWriter, r *http.Request) {
-
-}
-
 func initDb() {
 	config := dbConfig()
 	var err error
